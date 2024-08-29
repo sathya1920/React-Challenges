@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Outfit&family=Poppins&family=Tinos&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0px !important;
+  padding: 0;
+  font-family: 'Montserrat' , sans-serif;
+}
