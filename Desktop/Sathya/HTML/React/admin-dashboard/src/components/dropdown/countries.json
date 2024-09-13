@@ -1,0 +1,104 @@
+{
+    "countries": [
+      {
+        "country_name": "United States",
+        "country_code": "US",
+        "cities": [
+          "New York",
+          "Los Angeles",
+          "Chicago",
+          "Houston",
+          "Phoenix"
+        ]
+      },
+      {
+        "country_name": "Canada",
+        "country_code": "CA",
+        "cities": [
+          "Toronto",
+          "Vancouver",
+          "Montreal",
+          "Calgary",
+          "Ottawa"
+        ]
+      },
+      {
+        "country_name": "United Kingdom",
+        "country_code": "GB",
+        "cities": [
+          "London",
+          "Manchester",
+          "Birmingham",
+          "Leeds",
+          "Glasgow"
+        ]
+      },
+      {
+        "country_name": "India",
+        "country_code": "IN",
+        "cities": [
+          "Mumbai",
+          "Delhi",
+          "Bangalore",
+          "Hyderabad",
+          "Chennai"
+        ]
+      },
+      {
+        "country_name": "Australia",
+        "country_code": "AU",
+        "cities": [
+          "Sydney",
+          "Melbourne",
+          "Brisbane",
+          "Perth",
+          "Adelaide"
+        ]
+      },
+      {
+        "country_name": "Germany",
+        "country_code": "DE",
+        "cities": [
+          "Berlin",
+          "Munich",
+          "Frankfurt",
+          "Hamburg",
+          "Cologne"
+        ]
+      },
+      {
+        "country_name": "France",
+        "country_code": "FR",
+        "cities": [
+          "Paris",
+          "Lyon",
+          "Marseille",
+          "Toulouse",
+          "Nice"
+        ]
+      },
+      {
+        "country_name": "Japan",
+        "country_code": "JP",
+        "cities": [
+          "Tokyo",
+          "Osaka",
+          "Kyoto",
+          "Yokohama",
+          "Nagoya"
+        ]
+      },
+      {
+        "country_name": "Brazil",
+        "country_code": "BR",
+        "cities": [
+          "São Paulo",
+          "Rio de Janeiro",
+          "Brasilia",
+          "Salvador",
+          "Fortaleza"
+        ]
+      }
+    ]
+  }
+  
