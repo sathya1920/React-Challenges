@@ -1,0 +1,12 @@
+body.mode{
+    background-color: black;
+}
+
+button{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icon{
+    cursor: pointer;
+}
