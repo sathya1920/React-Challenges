@@ -1,0 +1,34 @@
+/* ToolBox.css */
+
+/* Global Styles */
+.toolbox {
+    width: 100%; /* Make it full width on small devices */
+    max-width: 250px; /* Limit the width on larger screens */
+    padding: 16px;
+    border-right: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+.toolbox-title {
+    margin-bottom: 16px; /* Add some space below the title */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .toolbox {
+        max-width: 100%; /* Full width on smaller screens */
+        padding: 10px; /* Less padding on smaller screens */
+    }
+
+    .toolbox-title {
+        font-size: 1.5em; /* Slightly smaller title on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .toolbox-title {
+        font-size: 1.2em; /* Smaller title on very small screens */
+    }
+}

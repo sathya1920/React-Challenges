@@ -1,0 +1,57 @@
+/* src/components/a-new-drag-drop-workspace/newcomponents/Configurations.css */
+
+.configurations-container {
+    width: 350px; /* Default width */
+    padding: 16px;
+    border-left: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  .configurations-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .configurations-header h3 {
+    margin: 0;
+  }
+  
+  .configurations-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .configurations-form label {
+    margin-bottom: 4px;
+  }
+  
+  .configurations-form input,
+  .configurations-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box; /* Include padding in the width */
+  }
+  
+  .configurations-form button {
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 8px; /* Add space between button and other elements */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .configurations-container {
+      width: 100%; /* Full width on small screens */
+      border-left: none; /* Remove left border */
+    }
+  }
+  

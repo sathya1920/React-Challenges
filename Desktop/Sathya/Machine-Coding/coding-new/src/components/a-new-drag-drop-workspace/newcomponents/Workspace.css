@@ -1,0 +1,62 @@
+/* Workspace.css */
+
+.workspace {
+    flex: 1;
+    padding: 16px;
+    min-height: 400px;
+    background-color: #fafafa;
+    overflow-y: auto;
+    box-sizing: border-box;
+    position: relative; /* To position elements absolutely if needed */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  /* When hovering over the drop area */
+  .workspace:hover {
+    background-color: #e6f7ff; /* Change background color on hover */
+  }
+  
+  .preview-button-container {
+    margin-bottom: 16px;
+  }
+  
+  .preview-button {
+    padding: 8px 16px;
+    background-color: #52c41a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Button hover effect */
+  .preview-button:hover {
+    background-color: #4caf50; /* Darker green on hover */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .workspace {
+      padding: 12px; /* Adjust padding for smaller screens */
+    }
+    
+    .preview-button {
+      padding: 6px 12px; /* Smaller button on smaller screens */
+      font-size: 0.9em; /* Slightly smaller font size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .workspace {
+      padding: 8px; /* Further reduce padding for very small screens */
+    }
+    
+    .preview-button {
+      padding: 4px 8px; /* Even smaller button on very small screens */
+      font-size: 0.8em; /* Smaller font size on very small screens */
+    }
+  }
+  

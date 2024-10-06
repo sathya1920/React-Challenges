@@ -1,0 +1,27 @@
+/* Draggable.css */
+
+.draggable-element {
+    padding: 8px;
+    border: 2px dotted gray;
+    margin-bottom: 4px;
+    cursor: move;
+    border-radius: 4px;
+    background-color: white;
+    transition: opacity 0.2s ease; /* Smooth transition for opacity */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .draggable-element {
+        padding: 6px; /* Adjust padding for smaller screens */
+        font-size: 0.9em; /* Slightly smaller font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .draggable-element {
+        padding: 4px; /* Further reduce padding for very small screens */
+        font-size: 0.8em; /* Smaller font size on very small screens */
+    }
+}
